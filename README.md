@@ -5,24 +5,6 @@ This project presents a Machine Learning-based pre-screening system designed to 
  
 #### A Machine Learning Pre-Screening Approach Integrating Biochemical Biomarkers, Clinical History, and Lifestyle Predictors
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Scikit--Learn-1.3-orange?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/XGBoost-2.0-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/SHAP-Explainable_AI-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/SMOTE-Class_Balancing-purple?style=for-the-badge"/>
-  
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Target-🟢 High / 🟡 Moderate / 🔴 Low Chance-informational?style=flat-square"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Input-Synthetic Patient CSV Dataset-informational?style=flat-square"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Features-25 Original + 7 Engineered-informational?style=flat-square"/>
-</p>
-
----
-
 ## Table of Contents
 
 - [About the Project](#-about-the-project)
