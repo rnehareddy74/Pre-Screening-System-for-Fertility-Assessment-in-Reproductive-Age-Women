@@ -1,5 +1,5 @@
 
-### # Pre-Screening-System-for-Fertility-Assessment-in-Reproductive-Age-Women
+###  Pre-Screening-System-for-Fertility-Assessment-in-Reproductive-Age-Women
 This project presents a Machine Learning-based pre-screening system designed to predict early-stage fertility chances in women of reproductive age. The model integrates biochemical biomarkers, clinical history, and lifestyle factors to provide a data-driven fertility risk assessment .
 
  
@@ -44,7 +44,7 @@ This project presents a Machine Learning-based pre-screening system designed to 
 
 ## About the Project
 
-**This Project is an end-to-end machine learning pipeline for **early-stage, pre-clinical fertility chance prediction** in women of reproductive age.
+This Project is an end-to-end machine learning pipeline for **early-stage, pre-clinical fertility chance prediction** in women of reproductive age.
 
 The tool reads a real patient CSV dataset (`fertility_dataset.csv`), processes 25 clinical, hormonal, and lifestyle features, and predicts each patient's **fertility chance** as one of three classes:
 
@@ -349,15 +349,13 @@ fertipredict/
 │
 ├── 📊 fertility_dataset.csv              ← Input dataset (required)
 │
-├── 📄 abstracts/
-│   └── PubMed_Abstract_Fertility.docx   ← Research paper abstract
 │
 └── README.md                            ← You are here
 ```
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Option 1 — Google Colab (Recommended)
 
@@ -475,7 +473,7 @@ jupyter>=1.0
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Neha Reddy Ramidi**
 - [MS in Data science / Institution]
