@@ -24,7 +24,7 @@ This project presents a Machine Learning-based pre-screening system designed to 
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [About the Project](#-about-the-project)
 - [Dataset](#-dataset)
@@ -54,7 +54,7 @@ The tool reads a real patient CSV dataset (`fertility_dataset.csv`), processes 2
 | 🟡 **Moderate Chance** | Some concerns present — monitoring or mild intervention may help |
 | 🔴 **Low Chance** | Multiple factors affecting fertility — specialist consultation recommended |
 
-> 🏥 **Clinical Gap Addressed:** Most women do not seek fertility advice until after prolonged unsuccessful conception. This tool is designed to flag concerns **before a clinic visit**, enabling earlier referral and intervention.
+> **Clinical Gap Addressed:** Most women do not seek fertility advice until after prolonged unsuccessful conception. This tool is designed to flag concerns **before a clinic visit**, enabling earlier referral and intervention.
 
 ### Key Contributions
 - **Positive framing** — predicts *fertility chance* not *infertility risk* — more empowering for patients
@@ -285,7 +285,7 @@ All four models are trained on SMOTE-balanced training data and evaluated on the
 
 ---
 
-## 🔍 Explainability — SHAP
+## Explainability — SHAP
 
 `TreeExplainer` is applied to the best model on the first 300 test samples.
 
@@ -340,7 +340,7 @@ Result: Moderate Chance  |  Confidence: 72.3%  |  Model: XGBoost
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 fertipredict/
@@ -457,7 +457,7 @@ jupyter>=1.0
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -484,13 +484,13 @@ jupyter>=1.0
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - SHAP — Lundberg & Lee (2017), *"A Unified Approach to Interpreting Model Predictions"*, NeurIPS
 - SMOTE — Chawla et al. (2002), *"SMOTE: Synthetic Minority Over-sampling Technique"*, JAIR
@@ -499,7 +499,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ---
 
 <p align="center">
-  <i>⚠️ This Project(FertiPredict) is intended for early-stage pre-screening purposes only.<br>
+  <i>This Project(FertiPredict) is intended for early-stage pre-screening purposes only.<br>
   It is not a medical device and does not replace clinical diagnosis or specialist advice.<br>
   Always consult a qualified reproductive endocrinologist for medical decisions.</i>
 </p>
