@@ -11,13 +11,12 @@ This project presents a Machine Learning-based pre-screening system designed to 
   <img src="https://img.shields.io/badge/XGBoost-2.0-red?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/SHAP-Explainable_AI-green?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/SMOTE-Class_Balancing-purple?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Research_Paper_In_Preparation-brightgreen?style=for-the-badge"/>
-</p>
+  
 
 <p align="center">
   <img src="https://img.shields.io/badge/Target-🟢 High / 🟡 Moderate / 🔴 Low Chance-informational?style=flat-square"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/Input-Real Patient CSV Dataset-informational?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Input-Synthetic Patient CSV Dataset-informational?style=flat-square"/>
   &nbsp;
   <img src="https://img.shields.io/badge/Features-25 Original + 7 Engineered-informational?style=flat-square"/>
 </p>
@@ -345,9 +344,9 @@ Result: Moderate Chance  |  Confidence: 72.3%  |  Model: XGBoost
 ```
 fertipredict/
 │
-├── 📓 Fertility_Chance_Prediction.ipynb  ← Main pipeline notebook
+├──  Fertility_Chance_Prediction.ipynb  ← Main pipeline notebook
 │
-├── 📊 fertility_dataset.csv              ← Input dataset (required)
+├── fertility_dataset.csv              ← Input dataset (required)
 │
 │
 └── README.md                            ← You are here
