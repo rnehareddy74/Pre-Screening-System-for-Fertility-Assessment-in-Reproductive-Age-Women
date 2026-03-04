@@ -31,9 +31,9 @@ The tool reads a real patient CSV dataset (`fertility_dataset.csv`), processes 2
 
 | Class | Meaning |
 |---|---|
-| 🟢 **High Chance** | Strong positive fertility indicators across most domains |
-| 🟡 **Moderate Chance** | Some concerns present — monitoring or mild intervention may help |
-| 🔴 **Low Chance** | Multiple factors affecting fertility — specialist consultation recommended |
+|  **High Chance** | Strong positive fertility indicators across most domains |
+|  **Moderate Chance** | Some concerns present — monitoring or mild intervention may help |
+|  **Low Chance** | Multiple factors affecting fertility — specialist consultation recommended |
 
 > **Clinical Gap Addressed:** Most women do not seek fertility advice until after prolonged unsuccessful conception. This tool is designed to flag concerns **before a clinic visit**, enabling earlier referral and intervention.
 
@@ -279,12 +279,12 @@ All four models are trained on SMOTE-balanced training data and evaluated on the
 
 **Feature importance colour coding:**
 ```
-🟢 Green — positive fertility indicators
+Green — positive fertility indicators
           amh, good_amh, prime_age, healthy_bmi,
           normal_fsh, cycle_regular, vitd,
           semen_analysis, no_diagnosis
 
-🔴 Red   — negative fertility indicators
+ Red   — negative fertility indicators
           pcos, endometriosis, months_trying,
           stress, smoking, bmi extremes
 ```
@@ -297,9 +297,9 @@ The prediction cell generates a two-panel visual card for any patient:
 
 **Left panel — Probability bar chart**
 ```
-🟢 High Chance     ████████████  72.3%  ← winner (bold border)
-🟡 Moderate Chance ████          18.1%
-🔴 Low Chance      ██             9.6%
+ High Chance     ████████████  72.3%  ← winner (bold border)
+Moderate Chance ████          18.1%
+Low Chance      ██             9.6%
 ```
 
 **Right panel — Patient profile summary**
@@ -483,4 +483,4 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
   Always consult a qualified reproductive endocrinologist for medical decisions.</i>
 </p>
 
-<p align="center">Made with 💚 for reproductive health awareness</p>
+<p align="center">Made with love for reproductive health awareness</p>
